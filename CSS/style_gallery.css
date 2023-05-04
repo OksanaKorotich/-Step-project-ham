@@ -1,0 +1,118 @@
+
+.container-galery{
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    margin: 95px auto 80px auto;
+    align-items: center;
+}
+
+.gallery-images{
+    width: 1160px;
+    margin-bottom: 52px;
+}
+
+.cover-item{
+    background-color: rgba(0, 0, 0, 0.64);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.gallery-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 12px;
+}
+
+
+
+.sizer1{
+    width: 378px;
+}
+
+/* .sizer2{
+    width: 184px;
+    height: 168px;
+}
+
+.sizer3{
+    width: 119.3px;
+    height: 92px;
+} */
+
+/* Hover */
+
+.icons{
+    width: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+
+.icon-container{
+    width: 26px;
+    height: 25px;
+    background-color: #14B9D5;
+    text-align: center;
+
+}
+
+.icon-container img{
+    width: 15px;
+    height: 15px;
+    padding: 6px;
+
+}
+
+.icon-one{
+    width: 15px;
+    height: 15px;
+    padding: 6px;
+
+}
+
+.gallery-elem{
+    position: relative;
+}
+
+.flex-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 168px;
+    margin-bottom: 3px;
+}
+
+.flex-element{
+    width: 187.5px;
+    height: 168px;
+}
+
+.flex-element img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-element{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    margin-bottom: 12px;
+}
+
+.grid-element-item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
